@@ -9,7 +9,7 @@ You'll need sox for this to work
 
   `sudo apt-get install sox`
   
-After cloning the repo
+Get everything set up:
 ```
 git clone git@github.com:OSChris/elixir-synth.git && cd elixir-synth
 iex -S mix
