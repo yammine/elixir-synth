@@ -8,6 +8,12 @@ You'll need sox for this to work
   or
 
   `sudo apt-get install sox`
+  
+After cloning the repo
+```
+git clone git@github.com:OSChris/elixir-synth.git && cd elixir-synth
+iex -S mix
+```
 
 An Elixir-based synthesizer. To use it, you can evaluate:
 
