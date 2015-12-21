@@ -1,7 +1,7 @@
 Quickie Synth
 ============
 
-This is a modification of <a href="https://github.com/oschris">OSChris'</a> <a href="https://github.com/OSChris/elixir-synth">Quickie Synth</a>, an Elixir-based synthesizer.
+This is a modification of <a href="https://github.com/oschris">OSChris'</a> <a href="https://github.com/OSChris/elixir-synth">Elixir-based synthesizer</a>.
 So far I have added the ability for the user to choose from 7 different waveforms.
 This provides more sonic flexibility.
 
@@ -20,7 +20,7 @@ git clone git@github.com:paullucas/elixir-synth.git && cd elixir-synth
 iex -S mix
 ```
 ============
-To use this Elixir-based synthesizer, you will need to decide upon a waveform.
+To use the synthesizer, you will need to initially decide upon a waveform.
 Here are all 7 methods of playing a single note (in this case, 'C'):
 
 To use the exponential wave, you can evaluate:
