@@ -1,5 +1,5 @@
-defmodule QuickieSynth.UI do
-  alias QuickieSynth.Sound
+defmodule QuickieSynth.UIsin do
+  alias QuickieSynth.Soundsin
   alias QuickieSynth.KeyboardMap
 
   def start do
@@ -19,7 +19,7 @@ defmodule QuickieSynth.UI do
         note = KeyboardMap.note_for("#{key}")
         case note do
           :nomap -> :ok
-          _ -> spawn(Sound, :play, [note])
+          _ -> spawn(Soundsin, :play, [note])
         end
     end
     loop(window)
